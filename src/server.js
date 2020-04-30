@@ -1,8 +1,8 @@
 const express = require('express')
 const kodersRouter = require('./routes/koders')
-const koders = require('./usecases/koders')
-const mentor = require('./usecases/mentors')
+
 const authRouter = require('./routes/auth')
+const mentorRouter = require('.routes/mentors')
 
 const app = express()
 
