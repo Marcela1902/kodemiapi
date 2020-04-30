@@ -1,6 +1,7 @@
 const server = require('./src/server')
 const db = require('./src/lib/db')
-const auth = require('./src/lib/jwt')
+const jwt = require('./src/lib/jwt')
+
 
 
 async function main (){

@@ -2,14 +2,14 @@ const express = require('express')
 const kodersRouter = require('./routes/koders')
 
 const authRouter = require('./routes/auth')
-const mentorRouter = require('.routes/mentors')
+const mentorsRouter = require('./routes/mentors')
 
 const app = express()
 
 app.use(express.json())
 //montamos el router
 app.use('/koders',kodersRouter)
-app.use('/mentors',mentorRouter)
+app.use('/mentors',mentorsRouter)
 app.use('/auth',authRouter)
 
 //todos los recursos en las rutas se escriben en plural
