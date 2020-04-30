@@ -6,8 +6,6 @@
   "scripts": {
     "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
-    
-    
   },
   "keywords": [],
   "author": "",
@@ -17,7 +15,9 @@
     "standard": "^14.3.3"
   },
   "dependencies": {
+    "bcrypt": "^4.0.1",
     "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.9.10"
   }
 }

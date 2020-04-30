@@ -11,7 +11,7 @@ const url = `mongodb+srv://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/${DB_NAME}`
  
  
 function connect(){
-    mongoose.connect(url, {useNewUrlParser: true, useUnifiedTopology: true })
+    mongoose.connect(url, {useNewUrlParser: true, useUnifiedTopology: true , useFindAndModify: false})
 }
 
 
